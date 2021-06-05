@@ -1,0 +1,166 @@
+html{
+	scroll-behavior:smooth;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	
+	font-family: 'Titillium Web', sans-serif;
+}
+
+section{
+	padding-top:75px;
+	padding-bottom:75px;
+}
+/* -- ==== header === */
+#main-nav{
+	background-color: #87509c!important;
+}
+#main-nav ul li a.active{
+	background-color:#643a79!important;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+#main-nav ul li a{
+	padding: 5px 10px;
+}
+/*-- ===== home part ====== --*/
+#home{
+	background-color:#87509c;
+}
+#home h2{
+	color:#f7f3ea!important;
+}
+#home .btn{
+	background-color:#eb7d4b;
+	color:#f7f3ea!important;
+	font-size: 12px;
+    font-weight: 500;
+    padding:13px 42px;
+	margin-bottom:4.5rem;
+}
+/*-- about part --*/
+#about{
+	background-color:#17c2a4;
+}
+#about  h2, 
+p , h3{
+	color:#f7f3ea!important;
+
+}
+/*-- === MEET OUR BEAUTIFUL TEAM === --*/
+#team{
+	background-color:#e7f1f8!important;
+}
+#team h2 , h5{
+	color:#3c4761!important;
+}
+#team p{
+	color:#3c4761!important;
+}
+#team img{
+	height:135px!important;
+	width:135px!important;
+}
+#team ul li{
+	height:1.6rem!important;
+	width:1.6rem!important;
+	background-color:#bdd1df!important;
+}
+#team ul li a i{
+	font-size:14px!important;
+	font-weight:100!important;
+}
+/*-- === progress part === --*/
+#progerss .circle-chart {
+    width: 140px!important;
+    height: 140px!important;
+}
+#progerss .progres_1 .success-stroke{
+	stroke:#17a2b8!important;
+}
+#progerss .progres_2 .success-stroke{
+	stroke:#d74680!important;
+}
+#progerss .progres_3 .success-stroke{
+	stroke:#15c7a8!important;
+}
+#progerss .progres_4 .success-stroke{
+	stroke:#eb7d4b!important;
+}
+/*-- === our portfolio === --*/
+#portfolio{
+	background-color:#ffdd99;
+}
+#portfolio  .gallery_btn .btn.active{
+	background-color:white!important;
+}
+#portfolio  .gallery_btn .btn{
+	background-color:#ebc985!important;
+	color:black;
+	padding: 5px 18px;
+    font-size: 14px;
+}
+.load_more .btn{
+	padding: 13px 42px;
+    background:#17c2a4;
+    font-size: 13px;
+    color:#e7f1f8;
+}
+/*-- === clint say about us === --*/
+#clint_say{
+	background-color:#d74680;
+}
+#clint_say a{
+	color:#ffdd99!important;
+}
+/*-- === contact part === --*/
+#contact{
+	background-color:#3c5499;
+}
+#contact .inp_bg{
+	background-color:#273a71;
+	border:1px solid #273a71;
+}
+#contact .btn{
+	padding: 13px 42px;
+    background:#30bae7;
+    font-size: 13px;
+
+}
+/*-- === footer part === --*/
+.footer{
+	background-color:#3c5499;
+}
+.social a:hover{
+	color:#30bae7!important;
+}
+/*-- === media device == --*/
+@media(max-width:767px){
+	#main-nav{
+		background-color: #d39e00!important;
+		text-align: center;
+		margin: 0px 20px;
+	}
+	#main-nav ul li a{
+		margin-top: 15px!important;
+	}
+}
+@media(max-width:576px){
+	#main-nav{
+		background-color: #d39e00!important;
+		text-align: center;
+		margin: 0px 20px;
+	}
+	#main-nav ul li a{
+		margin-top: 15px!important;
+	}
+}
+
+
+
+
+
